@@ -1,0 +1,20 @@
+{
+  "name": "random-flag-slack",
+  "version": "0.0.1",
+  "description": "A simple Slack app that gives a random flag.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.17.1",
+    "axios": "^1.6.8"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "url": "https://github.com/FoldedSenpai/random-flag-slack/tree/main"
+  },
+  "license": "UNLICENSED"
+}
