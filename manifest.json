@@ -1,0 +1,38 @@
+{
+    "display_information": {
+        "name": "Flag Randomizer",
+        "description": "Get a flag of a random country!",
+        "background_color": "#2f3033"
+    },
+    "features": {
+        "bot_user": {
+            "display_name": "Flag Randomizer",
+            "always_online": false
+        }
+    },
+    "oauth_config": {
+        "scopes": {
+            "bot": [
+                "channels:history",
+                "chat:write",
+                "groups:history"
+            ]
+        }
+    },
+    "settings": {
+        "event_subscriptions": {
+            "request_url": "your_request_url_here",
+            "bot_events": [
+                "message.channels",
+                "message.groups"
+            ]
+        },
+        "interactivity": {
+            "is_enabled": true,
+            "request_url": "your_request_url_here"
+        },
+        "org_deploy_enabled": false,
+        "socket_mode_enabled": false,
+        "token_rotation_enabled": false
+    }
+}
